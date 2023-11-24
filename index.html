@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+     <main id="container">
+        <div class="itens">
+            <h1 class="tittle">Calculadora <span class="destaque">IMC</span></h1>
+
+            <p>Coloque seus dados e calcule seu <span class="destaque">IMC</span>.</p>
+
+            <label for="nome"><i class='bx bx-user'></i>Nome</label>
+            <input type="text" name="nome" id="nome" required>
+
+            <label for="altura"><i class='bx bx-ruler'></i>Altura</label>
+            <input type="text" name="altura" id="altura" required>
+
+            <label for="peso"><i class='bx bx-dumbbell'></i>Peso</label>
+            <input type="text" name="peso" id="peso" required>
+    
+            <button type="submit" id="botao">Calcular</button>
+
+            <div class="res"></div>
+
+        </div>
+     </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
