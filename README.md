@@ -1,7 +1,7 @@
 # Calculadora-IMC
  Calculadora de IMC 
  Tecnologias usadas:
- --HTML
- --CSS
- --JavaScript
+ --HTML<br>
+ --CSS<br>
+ --JavaScript<br>
  
