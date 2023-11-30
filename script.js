@@ -33,5 +33,6 @@ botao.addEventListener('click', () => {
     } else {
         // Exibir uma mensagem de erro se os valores não forem válidos
         divRes.textContent = "Por favor, insira valores válidos para altura e peso.";
+        alert('Insira valores nos campos!')
     }
 });
