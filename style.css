@@ -91,17 +91,17 @@ button{
 
 /* RESPONSIVIDADE */
 
-@media (min-width:375px) and (max-width: 425px){
+@media (min-width:325px) and (max-width: 425px){
 
     /* CELULAR */
 
     #container{ 
     height: 750px;
     width: 80%;
+    margin: 1rem auto;
     display: flex;
     justify-content: center;
-    margin: 1rem auto;
-    padding: 50px;
+    padding: 20px;
     background-color: rgb(245, 242, 242);
     border-radius: 15px;
     }
